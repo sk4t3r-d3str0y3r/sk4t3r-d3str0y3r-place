@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>BLOG!!!</title>
+<style>
+    body {
+        background-color: black;
+        font-family: "Lato", sans-serif;
+        } 
+    .sidebar { 
+        height: 100%; 
+        width: 160px; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0; 
+        background-color: #333;
+        overflow-x: hidden; 
+        padding-top: 16px; 
+        } 
+        .sidebar a { 
+            padding: 6px 8px 6px 16px; 
+            text-decoration: none; 
+            font-size: 20px; 
+            color: white;
+            display: block; 
+            } 
+        .sidebar a:hover { 
+             color: #777; 
+         } 
+        .principal { 
+             margin-left: 160px; 
+             padding: 0px 10px; 
+         } 
+                    @media screen and (max-height: 450px) { 
+         .sidebar {
+             padding-top: 15px;
+                 } 
+        .sidebar a {
+            font-size: 18px;
+         } 
+            }
+        .column {
+             float: left;
+             width: 50%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        .column{
+            color: white;
+        } 
+        h2{
+            color: red;
+        }
+        h3{
+            color: gray;
+        }
+        #extras{
+          color: black;
+          display: inline-block;
+          text-align: center;
+          padding: 14px;
+          text-decoration: none;
+          background-color: white; 
+          overflow: auto; 
+          white-space: nowrap;
+        }
+        #extras:hover{
+          background-color: #777;
+        }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="sidebar"> 
+    <a href="index.html"><i class="fa fa-refresh" aria-hidden="true"></i> Menu</a>
+    <a href="pagina2.html"><i class="fa fa-book" aria-hidden="true"></i> LIBROS</a>
+    <a href="pagina3.html"><i class="fa fa-music" aria-hidden="true"></i> MUSICA</a>
+    <hr />
+    <a href="https://paypal.me/hectorabrica?locale.x=es_XC"><i class="fa fa-paypal" aria-hidden="true"></i> Mi paypal <i class="fa fa-hand-o-left" aria-hidden="true"></i></a>
+</div>
+<div class="principal">
+    <h1>Blog <i class="fa fa-coffee" aria-hidden="true"></i></h1>
+    <div class="row">
+    <div class="column">
+        <h2>Opiniones y anecdotas :P</h2>
+        <h3>Opinion de SuperRekanss</h3>
+        <p>SuperRekanss es un youtuber con contenido compuesto por gameplays, videoreacciones, troleos y datos curiosos. su contenido es divertido, entretenido e informativo. el comenzo subiendo vieos de minecraft y su primer obra maestra fue titulada "Minecraft gameplays presentacion del canal" y es anunciando el contenido de su canal que luego pasaria por unos cambios y terminaria en su actual fuente de vistas que es free fire. tambien hace directos variados en los que van desde el haciendo ejercicio y quedando rojo como tomate hasta sus gatos lastimandolo en vivo. tambien le gusta gritar inesperadamente y ademas es grosero en sus videos/directos pero eso no quita el rato de diversion que te dara. cuenta con un sistema de donaciones y el metodo de ser un miembro en su canal a un precio accesible y con buenos beneficios. para finalizar sube videos muy recurrentemente y te aseguro un rato de entretenimiento. sin mas que decir espero que la opinion te ayude. el link de su canal esta en la seccion de extras del blog.</p>
+        <br>
+        <h3>Opinion de The frikers world</h3>
+        <p>The frikers world es conducido por un chico apodado "saito", el canal se compone de gameplays, blogs y videoreacciones. sus videos son entretenidos y variados, tambien hace directos algo "inesperados" por asi decirlo ya que los hace en altas horas de la noche o aveces muy temprano y siempre de juegos o temas diferentes. para finalizar es una canal aceptablemente entretenido  y como dije, variado. su canal esta en la seccion de extras del blog. sin mas que decir, denle un vistazo y espero que hubiera sido de ayuda esta opinion.</p>
+    </div>
+    <div class="column">
+        <h2>Extras :^)</h2>
+        <a href="https://discord.gg/mmCFqAz" id="extras"><i class="fa fa-users" aria-hidden="true"></i> Mi server de discord</a>
+        <hr />
+        <a href="https://www.youtube.com/c/EldogeComestible/videos" id="extras"><i class="fa fa-youtube-play" aria-hidden="true"></i> Mi canal de YT</a>
+        <a href="https://www.youtube.com/c/SuperRekanss/videos" id="extras"><i class="fa fa-youtube" aria-hidden="true"></i> SuperRekanss</a>
+        <a href="https://www.youtube.com/channel/UCWSGLgYE6vVlkUCwIrSvozg" id="extras"><i class="fa fa-youtube" aria-hidden="true"></i> Frikers world</a>
+        <hr />
+        <a href="https://www.twitch.tv/el_doge_comestible" id="extras"><i class="fa fa-twitch" aria-hidden="true"></i> Mi twitch</a>
+    </div>
+    </div>
+    </div>
+    <script>
+        alert("Apoyame en paypal si gustas ver mas actualizaciones mas rapido y unete a mi grupo de discord! <3");
+    </script>
+</body>
+</html>
